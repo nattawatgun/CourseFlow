@@ -1,0 +1,225 @@
+CSS
+.addLessonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.addLessonContent {
+display: flex;
+width: 100%;
+padding: 40px 100px 60px 100px;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid var(--Gray-200, #E6E7EB);
+background: var(--Utility-White, #FFF);
+}
+
+.lessonDetails {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.subLessonDetails {
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+}
+
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+
+.add-sub-lesson-button {
+  cursor: pointer;
+  display: flex;
+  padding: 18px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  border: 1px solid var(--orange-500, #F47E20);
+  background: #FFF;
+
+box-shadow: 4px 4px 24px 0px rgba(0, 0, 0, 0.08);
+}
+
+.delete-sub-lesson-button {
+  display: flex;
+  flex-direction: row;
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: var(--gray-500, #C8CCDB);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+}
+
+
+.createButton {
+  background-color: #F47E20;
+}
+
+.course-bar {
+    width: 60vw;
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px ;
+    background-color: white;
+    border-bottom: 1px solid var(--gray-400, #D6D9E4);
+    gap: 16px;
+}
+
+.cancel-button {
+    cursor: pointer;
+    width: 119px;
+    height: 60px;
+    border-radius: 12px;
+    border: 1px solid var(--orange-500, #F47E20);
+    background: #FFF;
+    box-shadow: 4px 4px 24px 0px rgba(0, 0, 0, 0.08);
+}
+
+.create-button {
+    cursor: pointer;
+    width: 117px;
+    height: 60px;
+    display: flex;
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: var(--blue-500, #2F5FAC);
+    margin-left: 16px;
+    border: none;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: var(--gray-100, #F6F7FC);
+}
+
+.input-course-container {
+    background-color: #FFF;
+    display: flex;
+    width: 1120px;
+    height: 1521px;
+    padding: 40px 100px 60px 100px;
+    flex-direction: column;;
+
+    border-radius: 16px;
+    border: 1px solid var(--Gray-200, #E6E7EB);
+    background: var(--Utility-White, #FFF);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.file-input {
+    width: 240px;
+    height: 240px;
+    display: flex;
+    padding: 0px 73px 0px 74px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--gray-100, #F6F7FC);
+
+    color: var(--blue-400, #5483D0);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+  .last-item-left {
+    border-bottom-left-radius: 10px;
+}
+
+.last-item-right {
+    border-bottom-right-radius: 10px;
+}
+
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 92px;
+    padding: 16px 40px;
+    background-color: white;
+    border-bottom: 1px solid var(--gray-400, #D6D9E4);
+}
+
+.sub-lesson {
+color: var(--gray-700, #646D89);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 30px */
+margin: 0px;
+}
+
+/* Style for upload video */
+
+
+
+
+/* Style for Drag'n'Drop */
+
+.item {
+  display: flex;
+  align-items: center;
+  align-items: start;
+  border-radius: var(--mantine-radius-md);
+  border: rem(1px) solid light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-5));
+  padding: var(--mantine-spacing-sm) var(--mantine-spacing-xl);
+  padding-top: 24px;
+  padding-left: calc(var(--mantine-spacing-xl) - var(--mantine-spacing-md));
+  background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-5));
+  margin-bottom: var(--mantine-spacing-sm);
+}
+
+.itemDragging {
+  box-shadow: var(--mantine-shadow-sm);
+}
+
+
+
+.dragHandle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: light-dark(var(--mantine-color-gray-6), var(--mantine-color-dark-1));
+  padding-left: var(--mantine-spacing-md);
+  padding-right: var(--mantine-spacing-md);
+}

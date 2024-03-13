@@ -1,0 +1,15 @@
+.assignment-container {
+  background-color: #E5ECF8;
+  padding: 24px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.assignment-answer {
+  margin-top: 25px;
+  padding: 0;
+}
+
+.assignment-submission {
+  margin-top: 25px;
+}

@@ -1,0 +1,51 @@
+/* html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  } */
+
+.side-bar {
+    /* border: 2px solid red; */
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    flex: 1;
+    border-right: 1px solid var(--gray-400, #D6D9E4);
+    background: var(--utility-white, #FFF);
+    position: sticky;
+    top: 0px;
+}
+
+.logo {
+    /* border: 2px solid blue; */
+    cursor: pointer;
+    width: 174px;
+    height: 19px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.control-panel {
+    /* border: 2px solid red; */
+    margin-bottom: 64px;
+}
+
+.menu {
+    /* border: 2px solid blue; */
+    cursor: pointer;
+    width: 19.9vw;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+}
+
+.menu:last-child {
+    margin-top: auto;
+    margin-bottom: 0px;
+}

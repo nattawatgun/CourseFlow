@@ -1,0 +1,337 @@
+.container-professional-instructors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 823px;
+  gap: 60px;
+  position: relative;
+  padding-top: 80px;
+}
+
+.container-card {
+  display: flex;
+  gap: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-align: center;
+  height: 520px;
+  gap: 15px;
+}
+
+.polygon-position {
+  position: absolute;
+  left: 250px;
+  bottom: 50px;
+}
+
+.container-graduates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 823px;
+  padding-top: 109px;
+  gap: 60px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container-card-graduates {
+  display: flex;
+  gap: 80px;
+}
+
+.container-card {
+  display: flex;
+}
+
+.card-graduates {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 900px;
+  height: 310px;
+  position: relative;
+}
+
+.text-card-graduates-container {
+  display: inline-flex;
+  flex-direction: column;
+  width: 750px;
+  height: 310px;
+  padding: 35px 25px 66px 90px;
+  border-radius: 8px;
+  background-color: #E5ECF8;
+}
+
+.picture-graduates-position {
+  position: absolute;
+  left: 5px;
+}
+
+.quotemark-left-position {
+  position: absolute;
+  top: -10px;
+  left: 0px;
+}
+
+.quotemark-right-position {
+  position: absolute;
+  bottom: 15px;
+  right: 25px;
+}
+
+.big-ellipse-right-position {
+  position: absolute;
+  top: 20px;
+  right: 5px;
+}
+
+.small-ellipse-right-position {
+  position: absolute;
+  top: 100px;
+  right: 120px;
+}
+
+.plus-position {
+  position: absolute;
+  bottom: 120px;
+  left: 150px;
+}
+
+.main-top {
+  background: #E5ECF8;
+  height: 700px;
+  width: 100vw;
+  padding-top: 165px;
+  padding-left: 10%;
+  position: relative;
+}
+
+.background-blue,
+.computer,
+.ellipse-left,
+.cross,
+.circle-blue,
+.polygon,
+.circle-green {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.computer {
+  right: 180px;
+  top: 151px;
+}
+
+.ellipse-left {
+  left: 0px;
+  top: 76px;
+}
+
+.cross {
+  top: 161px;
+  left: 820px;
+}
+
+.circle-blue {
+  top: 543px;
+  left: 680px;
+}
+
+.polygon {
+  top: 573px;
+  left: 1200px;
+}
+
+.circle-green {
+  right: 90px;
+  top: 413px;
+}
+
+.box1 {
+  width: 643px;
+  height: 166px;
+  color: #000;
+  margin-bottom: 24px;
+}
+
+.box2 {
+  width: 643px;
+  height: 60px;
+  color: #646D89;
+  margin-bottom: 60px;
+}
+
+.explore-button {
+  cursor: pointer;
+  display: flex;
+  padding: 18px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 12px;
+  background: #2F5FAC;
+  color: #FFF;
+  text-align: center;
+}
+
+.main-middle {
+  height: 1111px;
+  width: 100vw;
+  /* Jimmy PR8: Merged padding settings from the new branch. */
+  padding-left: 159px;
+  padding-top: 161px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  width: 1250px;
+  height: 780px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.row1,
+.row2 {
+  display: flex;
+  flex-direction: row;
+  gap: 119px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon-box{
+  padding-top: 5px;
+}
+
+.text-head {
+  width: 547px;
+  height: 90px;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.text-subhead {
+  width: 487px;
+  height: 30px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.text {
+  width: 487px;
+  height: 48px;
+  color: #646D89;
+}
+
+.ellipse-top,
+.circle-grey,
+.cross-purple,
+.ellipse-bot {
+  position: absolute;
+}
+
+.ellipse-top {
+  top: 0px;
+  left: 140px;
+}
+
+.circle-grey {
+  top: 94px;
+  left: 508px;
+}
+
+.cross-purple {
+  top: 399px;
+  right: 80px;
+}
+
+.ellipse-bot {
+  bottom: 0px;
+  right: 122px;
+}
+
+.sub-footer {
+  display: flex;
+  width: 100vw;
+  height: 500px;
+  padding: 90px 190px;
+  gap: 550px;
+  background: linear-gradient(271deg, #5697FF 7.78%, #2558DD 73.86%);
+  position: relative;
+  color: white;
+  position: relative;
+}
+
+.left-sub-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.right-sub-footer-tech-logo  {
+  position: absolute;
+  right: 150px;
+  top: 50px
+}
+
+.right-sub-footer-ellipse  {
+  position: absolute;
+  right: 850px;
+  bottom: 70px
+}
+
+.right-sub-footer-polygon  {
+  position: absolute;
+  right: 60px;
+  top: 120px;
+}
+
+.button {
+  display: flex;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 32px;
+  gap: 10px;
+  border: 1px solid #F47E20;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 4px 4px 24px 0px rgba(0, 0, 0, 0.08);
+  color: #F47E20;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: white;
+  background: #F47E20;
+  color: white;
+}

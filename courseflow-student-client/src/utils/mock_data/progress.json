@@ -1,0 +1,32 @@
+{
+  "id": 1,
+  "userId": "auth0|65ccaf3c365d79c2fb97a81b",
+  "courseId": 1,
+  "courseCompletion": "IN_PROGRESS",
+  "progress": [
+    {
+      "id": 1,
+      "subLessonId": 1,
+      "courseEnrollmentId": 1,
+      "isComplete": "COMPLETED",
+      "videoCompletion": "COMPLETED",
+      "assignmentSubmitted": false
+    },
+    {
+      "id": 2,
+      "subLessonId": 2,
+      "courseEnrollmentId": 1,
+      "isComplete": "COMPLETED",
+      "videoCompletion": "COMPLETED",
+      "assignmentSubmitted": false
+    },
+    {
+      "id": 3,
+      "subLessonId": 3,
+      "courseEnrollmentId": 1,
+      "isComplete": "COMPLETED",
+      "videoCompletion": "COMPLETED",
+      "assignmentSubmitted": false
+    }
+  ]
+}

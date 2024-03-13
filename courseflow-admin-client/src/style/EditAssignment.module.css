@@ -1,0 +1,142 @@
+.assignment-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background: var(--gray-100, #F6F7FC);
+}
+
+.navbar {
+ display: flex;
+ flex-direction: row;
+ height: 48px;
+ justify-content: space-between;
+ align-items: center;
+ width: 80vw;
+ height: 92px;
+ background-color: white;
+ padding-left: 30px;
+ padding-right: 50px;
+}
+
+.left-navbar{
+ display: flex;
+ gap: 16px;
+}
+
+.button {
+ display: flex;
+ height: 60px;
+ justify-content: center;
+ align-items: center;
+ border-radius: 12px;
+ background: #2F5FAC; 
+ color: white; 
+ cursor: pointer;
+ border: white;
+ box-shadow: 4px 4px 24px 0px rgba(0, 0, 0, 0.08);
+ padding: 18px 32px;
+ cursor: pointer;
+}
+
+.button-cancel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #F47E20;
+  background: white;
+  width: 119px;
+  height: 60px;
+  color: #F47E20;
+  cursor: pointer;
+}
+
+.main-container {
+ background-color: #F6F7FC;
+ display: flex;
+ padding: 40px;
+}
+
+.select{
+  width: 440px;
+  height: 48px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 100px 60px;
+  background-color: white;
+  border-radius: 12px;
+  width: 75vw;
+}
+
+.select-in-container{
+  display: flex;
+  gap: 40px;
+}
+
+.underline{
+  margin-top: 40px;
+  border-top: 1px solid #D6D9E4;
+}
+
+.head-navbar{
+  display: flex;
+  gap: 20px;
+}
+
+.text-head-navbar{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #9AA1B9;
+}
+
+.icon-back{
+  cursor: pointer;
+}
+
+.delete-box{
+  text-align: right;
+  padding-right: 75px;
+  color: #2F5FAC;
+  cursor: pointer;
+}
+
+.underline-modal{
+  border-top: 1px solid #D6D9E4;
+  width: 100%;
+}
+
+.button-component{
+  display: flex;
+  gap: 16px;
+}
+
+.button-confirm-delete{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  border: 1px solid#F47E20;
+  background-color: white;
+  font-weight: 700;
+  color: #F47E20;
+  padding: 0px 15px;
+  cursor: pointer;
+}
+
+.button-cancel-modal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  border: 1px solid#2F5FAC;
+  background-color: #2F5FAC;
+  font-weight: 700;
+  color: white;
+  padding: 0px 15px;
+  cursor: pointer;
+}

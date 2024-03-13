@@ -1,0 +1,116 @@
+.my-courses {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100vw;
+}
+
+.my-courses-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    height: 170px;
+    font-size: 36px;
+}
+
+.tab {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.tab-position {
+    display: flex;
+    position: relative;
+    left: 45px;
+}
+
+.container-my-courses {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center ;
+    gap: 24px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.container-sticky-box {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-top: 75px;
+}
+
+.sticky-box {
+    top: 5%;
+    display: flex;
+    width: 357px;
+    padding: 32px 24px;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    gap: 24px;
+    background: var(--utility-white, #FFF);
+    box-shadow: 4px 4px 24px 0px rgba(0, 0, 0, 0.08);
+}
+
+.set-profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 999px;
+    object-fit: cover;
+}
+
+.set-user-name {
+    color: var(--gray-800, #424C6B);
+    text-align: center;
+    font-family: Inter; /* headline3 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 30px */
+    letter-spacing: -0.48px;
+}
+
+.container-courses-cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 30px;
+    max-width: 850px;
+    min-width: 850px;
+}
+
+.course-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    max-width: 800px;
+    gap: 24px;
+}
+
+.status {
+    display: flex;
+    gap: 24px;
+}
+
+.small-box {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    border-radius: 8px;
+    background: var(--gray-200, #F1F2F6);
+}

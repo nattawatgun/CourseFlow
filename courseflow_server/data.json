@@ -1,0 +1,135 @@
+{
+  "id": 1,
+  "name": "Introduction to Programming",
+  "detail": "Welcome to the gateway of innovation, creativity, and endless opportunities! Our Introduction to Programming course is the perfect launchpad for aspiring technologists, innovators, and digital creators. Whether you're a student, professional, or hobbyist, this course is tailored to ignite your journey in the dynamic world of programming.",
+  "summary": "Learn the basics of programming.",
+  "totalLessons": 5,
+  "coverImageUrl": "https://placehold.co/600x400",
+  "videoTrailerUrl": "http://example.com/trailer1",
+  "price": 4000,
+  "totalLearningTime": "10 hours",
+  "createdAt": "2024-02-14T12:58:25.493Z",
+  "updatedAt": "2024-02-14T12:58:25.636Z",
+  "lessons": [
+    {
+      "id": 1,
+      "index": 1,
+      "title": "Introduction to Node.js",
+      "courseId": 1,
+      "sublessons": [
+        {
+          "id": 1,
+          "title": "Setting Up Your Environment",
+          "index": 1,
+          "lessonId": 1,
+          "videoUrl": "https://example.com/video1",
+          "assignmentRequired": false
+        },
+        {
+          "id": 2,
+          "title": "Understanding the Event Loop",
+          "index": 2,
+          "lessonId": 1,
+          "videoUrl": "https://example.com/video2",
+          "assignmentRequired": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "index": 2,
+      "title": "Node.js Basics",
+      "courseId": 1,
+      "sublessons": [
+        {
+          "id": 3,
+          "title": "Working with Modules",
+          "index": 1,
+          "lessonId": 2,
+          "videoUrl": "https://example.com/video3",
+          "assignmentRequired": false
+        },
+        {
+          "id": 4,
+          "title": "Asynchronous Programming",
+          "index": 2,
+          "lessonId": 2,
+          "videoUrl": "https://example.com/video4",
+          "assignmentRequired": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "index": 3,
+      "title": "Node.js Advanced Topics",
+      "courseId": 1,
+      "sublessons": [
+        {
+          "id": 5,
+          "title": "Event Emitters and Streams",
+          "index": 1,
+          "lessonId": 3,
+          "videoUrl": "https://example.com/video5",
+          "assignmentRequired": false
+        },
+        {
+          "id": 6,
+          "title": "Building RESTful APIs",
+          "index": 2,
+          "lessonId": 3,
+          "videoUrl": "https://example.com/video6",
+          "assignmentRequired": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "index": 4,
+      "title": "Node.js Testing and Debugging",
+      "courseId": 1,
+      "sublessons": [
+        {
+          "id": 7,
+          "title": "Unit Testing with Jest",
+          "index": 1,
+          "lessonId": 4,
+          "videoUrl": "https://example.com/video7",
+          "assignmentRequired": false
+        },
+        {
+          "id": 8,
+          "title": "Debugging Techniques",
+          "index": 2,
+          "lessonId": 4,
+          "videoUrl": "https://example.com/video8",
+          "assignmentRequired": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "index": 5,
+      "title": "Node.js Deployment",
+      "courseId": 1,
+      "sublessons": [
+        {
+          "id": 9,
+          "title": "Deploying Node.js Apps on Heroku",
+          "index": 1,
+          "lessonId": 5,
+          "videoUrl": "https://example.com/video9",
+          "assignmentRequired": false
+        },
+        {
+          "id": 10,
+          "title": "Scaling Your Node.js Application",
+          "index": 2,
+          "lessonId": 5,
+          "videoUrl": "https://example.com/video10",
+          "assignmentRequired": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+.blue-circle-position {
+  position: absolute;
+  left: 70px;
+  top: 35px; 
+}
+
+.left-blue-circle-position {
+  position: absolute;
+  left: 20px;
+  top: 70px;
+}
+
+.triangle-position {
+  position: absolute;
+  right: 120px;
+  top: 55px;
+}
+
+.right-blue-circle-position {
+  position: absolute;
+  top: 170px;
+  right: 10px;
+}
+
+.plus-position {
+  position: absolute;
+  left: 250px;
+  top: 170px;
+}

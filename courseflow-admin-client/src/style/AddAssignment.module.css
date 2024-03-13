@@ -1,0 +1,97 @@
+.assignment-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background: var(--gray-100, #F6F7FC);
+}
+
+.navbar {
+ display: flex;
+ flex-direction: row;
+ height: 48px;
+ justify-content: space-between;
+ align-items: center;
+ width: 80vw;
+ height: 92px;
+ background-color: white;
+ padding-left: 30px;
+ padding-right: 50px;
+}
+
+.left-navbar{
+ display: flex;
+ gap: 16px;
+}
+
+.button {
+ display: flex;
+ height: 60px;
+ justify-content: center;
+ align-items: center;
+ border-radius: 12px;
+ background: #2F5FAC; 
+ color: white; 
+ cursor: pointer;
+ border: white;
+ box-shadow: 4px 4px 24px 0px rgba(0, 0, 0, 0.08);
+ padding: 18px 32px;
+ cursor: pointer;
+}
+
+.button-after-click {
+  display: flex;
+ height: 60px;
+ justify-content: center;
+ align-items: center;
+ border-radius: 12px;
+ background: gray; 
+ color: white; 
+ cursor: pointer;
+ border: white;
+ box-shadow: 4px 4px 24px 0px rgba(0, 0, 0, 0.08);
+ padding: 18px 32px;
+}
+
+.button-cancel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid #F47E20;
+  background: white;
+  width: 119px;
+  height: 60px;
+  color: #F47E20;
+  cursor: pointer;
+}
+
+.main-container {
+ background-color: #F6F7FC;
+ display: flex;
+ padding: 40px;
+}
+
+.select{
+  width: 440px;
+  height: 48px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 100px 60px;
+  background-color: white;
+  border-radius: 12px;
+  width: 75vw;
+}
+
+.select-in-container{
+  display: flex;
+  gap: 40px;
+}
+
+.underline{
+  margin-top: 40px;
+  border-top: 1px solid #D6D9E4;
+}

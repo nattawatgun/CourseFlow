@@ -1,0 +1,151 @@
+.assignment-container{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   background: var(--gray-100, #F6F7FC);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  height: 48px;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  height: 92px;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 25px;
+}
+
+.left-navbar{
+  display: flex;
+  gap: 16px;
+}
+
+.search-box{
+  width: 320px;
+  height: 48px;
+  padding: 12px 16px;
+  padding-left: 40px;
+  border-radius: 8px;
+  border: 1px solid var(--Gray-300, #CCD0D7);
+  background: #FFF url('../images/imagesCourse/search.svg') no-repeat 10px center;
+}
+
+.button {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #2F5FAC; 
+  color: white; 
+  cursor: pointer;
+  border: white;
+  box-shadow: 4px 4px 24px 0px rgba(0, 0, 0, 0.08);
+  padding: 18px 32px;
+  font-weight: 700;
+}
+
+.main-container {
+  background-color: #F6F7FC;
+  width: 80vw;
+  height: 100vh;
+  padding: 48px 40px 40px;
+}
+
+.assignment-main-container{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.header-assignment{
+  display: flex;
+  background-color: #e4e6ed;
+  justify-content: space-between;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  padding-left: 15px;
+  font-weight: 400;
+  color: #424C6B;
+}
+
+.assignment-detail{
+  display: flex;
+  padding-left: 15px;
+  height: 88px;
+  align-items: center;
+  border-bottom: 1px solid #F1F2F6;
+  font-weight: 400;
+}
+
+.icon-box{
+  display: flex;
+  padding-right: 5px;
+  width: 5%;
+  gap: 5px;
+}
+
+.icon{
+  cursor: pointer;
+}
+
+.assignment-detail-container{
+  width: 19%;
+}
+
+.course-container{
+  width: 19%;
+}
+
+.lesson-container{
+  width: 19%;
+}
+
+.sub-lesson-container{
+  width: 19%;
+}
+
+.created-at-container{
+  width: 19%;
+}
+
+.underline{
+  border-top: 1px solid #D6D9E4;
+  width: 100%;
+}
+
+.button-component{
+  display: flex;
+  gap: 16px;
+}
+
+.button-confirm-delete{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  border: 1px solid#F47E20;
+  background-color: white;
+  font-weight: 700;
+  color: #F47E20;
+  padding: 0px 15px;
+  cursor: pointer;
+}
+
+.button-cancel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  border: 1px solid#2F5FAC;
+  background-color: #2F5FAC;
+  font-weight: 700;
+  color: white;
+  padding: 0px 15px;
+  cursor: pointer;
+}

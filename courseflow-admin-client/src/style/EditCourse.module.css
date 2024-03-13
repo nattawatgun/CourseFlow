@@ -1,0 +1,30 @@
+.form {
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 40px;
+  padding: 40px 100px;
+}
+
+.form form > * {
+  margin-bottom: 20px;
+}
+
+.duo-text-input {
+  display: flex;
+  width: 100%;
+}
+
+.duo-text-input > * {
+  width: 45%;
+}
+
+:global(.mantine-TextInput-label) {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+:global(.mantine-Textarea-label) {
+  font-size: 1rem;
+  font-weight: 400;
+}
+

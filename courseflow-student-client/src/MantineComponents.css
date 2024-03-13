@@ -1,0 +1,17 @@
+.button-primary {
+  &[data-variant='secondary'] {
+    background: white;
+    color: #f47e20;
+    border: 2px solid #f47e20;
+  }
+
+  border-radius: 12px;
+  height: 60px;
+  background: #2f5fac;
+  color: white;
+  box-shadow: 4px 4px 24px 0px rgba(0, 0, 0, 0.08);
+}
+
+title {
+  font-size: 64px;
+}

@@ -1,0 +1,140 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                    String              @id
+  email                 String              @unique
+  name                  String
+  dateOfBirth           DateTime
+  educationalBackground String
+  avatarUrl             String?
+  subscribedCourse      CourseEnrollment[]
+  desiredCourses        UserDesiredCourse[]
+  userAssignment        UserAssignment[]
+}
+
+model UserDesiredCourse {
+  id       Int    @id @default(autoincrement())
+  userId   String
+  courseId Int
+  user     User   @relation(fields: [userId], references: [id])
+  course   Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
+}
+
+model CourseEnrollment {
+  id               Int        @id @default(autoincrement())
+  userId           String
+  courseId         Int
+  progress         Progress[]
+  courseCompletion Completion @default(IN_PROGRESS)
+  user             User       @relation(fields: [userId], references: [id])
+  course           Course     @relation(fields: [courseId], references: [id], onDelete: Cascade)
+}
+
+model UserAssignment {
+  id             Int       @id @default(autoincrement())
+  userId         String
+  assignmentId   Int
+  courseId       Int
+  sublessonId    Int
+  answer         String?
+  isSubmitted    Boolean   @default(false)
+  completeByDate DateTime?
+  submittedDate  DateTime?
+
+  user       User       @relation(fields: [userId], references: [id])
+  assignment Assignment @relation(fields: [assignmentId], references: [id], onDelete: Cascade)
+  course     Course     @relation(fields: [courseId], references: [id])
+  sublesson  Sublesson  @relation(fields: [sublessonId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, assignmentId])
+}
+
+model Progress {
+  id                 Int              @id @default(autoincrement())
+  subLessonId        Int
+  courseEnrollmentId Int
+  videoCompletion    Completion       @default(NOT_STARTED)
+  sublesson          Sublesson        @relation(fields: [subLessonId], references: [id], onDelete: Cascade)
+  courseEnrollment   CourseEnrollment @relation(fields: [courseEnrollmentId], references: [id], onDelete: Cascade)
+
+  @@unique([subLessonId, courseEnrollmentId])
+}
+
+model Course {
+  id                Int                 @id @default(autoincrement())
+  name              String
+  detail            String
+  summary           String
+  materialsId       String?
+  coverImageUrl     String
+  coverImageResId   String?
+  videoTrailerUrl   String
+  videoTrailerResId String?
+  price             Float
+  courseAttachments CourseAttachment[]
+  totalLearningTime String
+  createdAt         DateTime            @default(now())
+  updatedAt         DateTime?           @updatedAt
+  lessons           Lesson[]
+  courseEnrollment  CourseEnrollment[]
+  UserDesiredCourse UserDesiredCourse[]
+  UserAssignment    UserAssignment[]
+}
+
+model CourseAttachment {
+  id       Int     @id @default(autoincrement())
+  courseId Int
+  fileUrl  String?
+  course   Course  @relation(fields: [courseId], references: [id])
+}
+
+model Lesson {
+  id         Int         @id @default(autoincrement())
+  index      Int         @default(autoincrement())
+  title      String
+  courseId   Int
+  sublessons Sublesson[]
+  course     Course      @relation(fields: [courseId], references: [id], onDelete: Cascade)
+}
+
+model Sublesson {
+  id                 Int              @id @default(autoincrement())
+  title              String
+  index              Int              @default(autoincrement())
+  lessonId           Int
+  videoUrl           String
+  videoResId         String?
+  assignmentRequired Boolean          @default(false)
+  assignments        Assignment[]
+  lesson             Lesson           @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  Progress           Progress[]
+  UserAssignment     UserAssignment[]
+}
+
+model Assignment {
+  id          Int       @id @default(autoincrement())
+  title       String
+  duration    Int?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime? @updatedAt
+  sublessonId Int
+
+  sublesson      Sublesson?       @relation(fields: [sublessonId], references: [id], onDelete: Cascade)
+  UserAssignment UserAssignment[]
+}
+
+enum Completion {
+  NOT_STARTED
+  IN_PROGRESS
+  COMPLETED
+}

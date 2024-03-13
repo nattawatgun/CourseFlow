@@ -1,0 +1,129 @@
+.assignments-container {
+    border-radius: 8px;
+    background: var(--blue-300, #E5ECF8);
+    display: flex;
+    padding: 40px 96px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+   
+}
+
+.my-assignments {
+    padding-top: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.assignments {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    min-height: 800px;
+}
+
+.title-container{
+    display: flex;
+    justify-content: space-between;
+    width: 925px;   
+}
+
+.input-container{
+    display: flex;
+width: 928px;
+padding: 24px;
+align-items: flex-end;
+gap: 24px;
+justify-content: space-between;
+
+border-radius: 8px;
+border: 1px solid var(--gray-400, #D6D9E4);
+background: var(--utility-white, #FFF);
+}
+
+input {
+    width: 550px;
+    
+}
+
+.status-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.status-pending {
+    color: #996500;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+border-radius: 4px;
+background: #FFFBDB;
+padding: 4px 8px;
+}
+
+.status-submitted-late {
+    color: #3557CF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+border-radius: 4px;
+background: #EBF0FF;
+padding: 4px 8px;
+}
+
+.status-submitted {
+    color: #0A7B60;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+border-radius: 4px;
+background: #DDF9EF;
+padding: 4px 8px;
+}
+
+.status-overdue {
+    color: #9B2FAC;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+border-radius: 4px;
+background: #FAE7F4;
+padding: 4px 8px;
+}
+
+.button-submit{
+    display: flex;
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: var(--blue-500, #2F5FAC);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+    /* shadow1 */
+    box-shadow: 4px 4px 24px 0px rgba(0, 0, 0, 0.08);
+}
+
+.open-in-course {
+    color: var(--blue-500, #2F5FAC);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 24px */
+}

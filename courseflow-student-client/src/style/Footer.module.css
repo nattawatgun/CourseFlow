@@ -1,0 +1,80 @@
+.sub-footer {
+  display: flex;
+  width: 100vw;
+  height: 500px;
+  padding: 90px 190px;
+  gap: 550px;
+  background: linear-gradient(271deg, #5697FF 7.78%, #2558DD 73.86%);
+  position: relative;
+  color: white;
+  position: relative;
+}
+
+.left-sub-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.right-sub-footer-tech-logo  {
+  position: absolute;
+  right: 150px;
+  top: 50px
+}
+
+.right-sub-footer-ellipse  {
+  position: absolute;
+  right: 850px;
+  bottom: 70px
+}
+
+.right-sub-footer-polygon  {
+  position: absolute;
+  right: 60px;
+  top: 120px;
+}
+
+.footer {
+  display: flex;
+  width: 100vw;
+  height: 240px;
+  padding: 0px 160px;
+  justify-content: space-between;
+  align-items: center;
+  background: #183056;
+}
+
+.button {
+  display: flex;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 32px;
+  gap: 10px;
+  border: 1px solid #F47E20;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 4px 4px 24px 0px rgba(0, 0, 0, 0.08);
+  color: #F47E20;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: white;
+  background: #F47E20;
+  color: white;
+}
+
+.logo-box {
+  display: flex;
+  gap: 24px;
+}
+
+.logo-link {
+  cursor: pointer;
+}

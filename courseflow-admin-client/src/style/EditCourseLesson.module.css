@@ -1,0 +1,35 @@
+.nav-titles *{
+  margin: 0;
+}
+
+.accent-title {
+  color: #9AA1B9;
+}
+
+.lesson-editor {
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 40px;
+  padding: 40px 100px;
+}
+
+.split-line {
+  color: #D6D9E4;
+  margin: 40px 0;
+}
+
+.sublesson-box {
+  background-color: #F6F7FC;
+  padding: 24px 30px 24px 30px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+
+.input-delete-duo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-delete-duo input {
+  width: 530px;
+}

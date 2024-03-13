@@ -1,0 +1,41 @@
+{
+  "name": "courseflow_server",
+  "xo": {
+    "semicolon": true
+  },
+  "version": "1.0.0",
+  "description": "Courseflow's REST API Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "vitest"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.8.1",
+    "@supabase/supabase-js": "^2.39.3",
+    "auth0": "^4.3.1",
+    "cloudinary": "^2.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-oauth2-jwt-bearer": "^1.6.0",
+    "express-validator": "^7.0.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin-js": "^1.5.4",
+    "dotenv": "^16.4.1",
+    "eslint-config-xo": "^0.43.1",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.3",
+    "prisma": "^5.10.2",
+    "supertest": "^6.3.4",
+    "vitest": "^1.2.2"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  }
+}

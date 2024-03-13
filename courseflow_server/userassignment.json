@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "userId": "auth0|65cbe478365d79c2fb972a8e",
+    "assignmentId": 1,
+    "courseId": 1,
+    "sublessonId": 1,
+    "answer": null,
+    "isCompleted": false,
+    "completionDate": null,
+    "assignment": {
+      "id": 1,
+      "title": "How do you peel a banana?",
+      "duration": 3,
+      "sublessonId": 1
+    }
+  }
+]

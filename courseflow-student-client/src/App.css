@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Inter';
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: -1.32%;
+}
+
+h2 {
+  font-family: 'Inter';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: -0.72px;
+}
+
+h3 {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: -0.48px;
+}
+
+.cf-body-1 {
+  font-family: 'Inter';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.cf-body-2 {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.cf-body-3 {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.cf-body-4 {
+  font-family: 'Inter';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+/* Used in CourseflowDesignSystem */
+.button-primary {
+  &[data-variant='secondary'] {
+    background: white;
+    color: #f47e20;
+    border: 2px solid #f47e20;
+  }
+
+  border-radius: 12px;
+  height: 60px;
+  background: #2f5fac;
+  color: white;
+  box-shadow: 4px 4px 24px 0px rgba(0, 0, 0, 0.08);
+}
+
+.progress-bar {
+  border-radius: 24px;
+}
+
+#sublesson-video {
+  border-radius: 8px;
+}
